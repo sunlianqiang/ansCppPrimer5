@@ -2,3 +2,5 @@
 
 find . -iname \*.[ch] -exec grep --color -wn -H $1 \{\} \;
 find . -iname \*.cpp -exec grep --color -wn -H $1 \{\} \;
+find . -iname \Makefile -exec grep --color -wn -H $1 \{\} \;
+find . -iname \makefile -exec grep --color -wn -H $1 \{\} \;
