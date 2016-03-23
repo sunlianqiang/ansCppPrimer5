@@ -1,0 +1,7 @@
+out: ex14_30_StrBlobTest.cpp ex14_30_StrBlob.cpp  ex14_30_StrBlob.h
+	g++ ex14_30_StrBlobTest.cpp ex14_30_StrBlob.cpp  ex14_30_StrBlob.h -o out --std=c++11
+
+.PHONY:
+	clean
+clean:
+	rm *.o out
