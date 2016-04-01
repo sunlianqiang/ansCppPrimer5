@@ -1,0 +1,10 @@
+andquery.cpp
+binaryquery.cpp
+main.cpp
+notquery.cpp
+orquery.cpp
+query_base.cpp
+query.cpp
+queryresult.cpp
+textquery.cpp
+wordquery.cpp
